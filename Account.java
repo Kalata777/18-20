@@ -48,4 +48,7 @@ public void deposit(double i) {
 		this.balance+=i;
 
 }
+	public String toString() {
+		return "id:" + id + "balance:" + balance + "\nChecking Account";
+	}
 }
