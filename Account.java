@@ -49,6 +49,6 @@ public void deposit(double i) {
 
 }
 	public String toString() {
-		return "id:" + id + "balance:" + balance + "\nChecking Account";
+		return "id:" + id + "balance:" + balance;
 	}
 }
